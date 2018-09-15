@@ -7,12 +7,10 @@
   - Usage: 
 		./dip_hw1_resize.py -i image-name -fx scalex -fy scaley -m method  
 		
-		- image-name: name of the image
+		- image_name: name of the image
 		- scalex, scaley: scale to resize the image (eg. fx 0.5, fy 0.5 to make it half the original size)
-		- method: "nearest_neightbor" or "bilinear" 
+		- method: "nearest_neighbor" or "bilinear" 
 	   
-  - Example: 
-		- ./dip_hw1_resize.py -i cell2.jpg -fx 0.75 -fy 0.75 -m nearest_neighbor
-        or 
+  - Example to run the code: 
         - python dip_hw1_resize.py -i cell2.jpg -fx 0.75 -fy 0.75 -m nearest_neighbor
 
